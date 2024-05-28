@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Event details</h2>
+
+<mat-dialog-content>
+  <table class="mat-mdc-table mdc-data-table__table">
+    <tbody>
+    <tr class="mat-mdc-row" *ngFor="let item of displayData">
+      <th class="mat-mdc-cell mdc-data-table__cell">{{item.label | trans}}</th>
+      <td class="mat-mdc-cell mdc-data-table__cell">{{item.value}}</td>
+    </tr>
+    </tbody>
+  </table>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

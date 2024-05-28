@@ -1,0 +1,11 @@
+{
+  "deviceId": "Device Id",
+  "eventDate": "Event Date",
+  "type": "Type",
+  "reasonCode": "Reason Code",
+  "reasonText": "Reason Text",
+  "temp": "Temperature",
+  "threshold": "Threshold",
+  "unlockDate": "Unlock date",
+  "Event details": "Event details"
+}

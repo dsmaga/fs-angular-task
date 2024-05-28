@@ -1,0 +1,9 @@
+table {
+  width: 100%;
+  min-width: 10rem;
+}
+
+th {
+  text-align: right;
+}
+
